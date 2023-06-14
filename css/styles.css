@@ -34,17 +34,6 @@ a {
 
 }
 
-.header-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
-
-}
-
 .header-links {
         font-family: 'Roboto';
         font-style: normal;
@@ -56,30 +45,11 @@ a {
         color: #212121;
 }
 
-.header-links-portafolio {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-    color: #2196F3;
-}
-
-.header-links-studio {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
-        color: #2196F3;
-}
-
 .header-list :is(:focus, :hover) {
     color: #2196F3;
+}
+.header-list:active {
+    color: #2196f3;
 }
 
 .header-email:is(:focus, :hover) {
@@ -117,21 +87,10 @@ a {
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        color: #2196f3;
-}
-
-.header-telephone {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
         color: #757575;
 }
 
-.header-email-info {
+.header-telephone {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -194,6 +153,11 @@ a {
         left: 666px;
         top: 430px;
         background: #2196F3;
+}
+
+.buttons:is(:hover, :focus) {
+    background: #2196F3;
+    color: #FFFFFF;
 }
 
 .section-description {
@@ -315,35 +279,8 @@ a {
         font-size: 16px;
         line-height: 26px;
         /* identical to box height, or 162% */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
-    
         color: #212121;
-}
-
-.button-all {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #FFFFFF;
-        width: 73px;
-        height: 38px;
-        left: calc(50% - 73px/2 - 268.5px);
-        top: calc(50% - 38px/2 - 735px);
-    
-        background: #2196F3;
-        /* shadow-middle */
-    
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
+        cursor: pointer;
 }
 
 .portafolio-title {
@@ -389,4 +326,8 @@ a {
         bottom: 0%;
     
         background: rgba(255, 255, 255, 0.1);
+}
+
+.container {
+    width: 1200px;
 }
