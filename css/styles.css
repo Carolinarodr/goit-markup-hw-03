@@ -23,31 +23,31 @@ a {
 /*ESTILOS PARA BARRA DE NAVEGACION*/
 .header-page {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 32px;
     width: 1400px;
-    height: 80px;
+    height: 100px;
     left: 0px;
     top: 80px;
 
     border: 1px solid #ECECEC;
   }
   
-  .header-navigation {
+.header-navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 215px;
+    margin-right: 500px;
   }
 /*ESTILOS PARA EL TITULO*/
-  .header-title {
+.header-title {
     font-size: 29px;
     font-weight: bold;
     color: #2196F3;
     text-decoration: none;
   }
  /*ESTILOS PARA LA LISTA ESTUDIO PORTAFOLIO Y CONTACTOS*/ 
-  .header-list {
+.header-list {
     list-style: none;
     display: flex;
     margin-right: 70px;
@@ -56,48 +56,81 @@ a {
     font-size: 15px;
   }
   /*ESTILOS PARA CADA LISTA*/
-  .list-item {
+.list-item {
     margin-right: 20px;
     padding: 0 20px;
   }
   /*ESTILOS PARA QUITAR LO SUBRAYADO Y AZUL A LOS ENLACES*/
-  .header-links {
+.header-links {
     text-decoration: none;
     color: #000000;
   }
   
-  .header-links:hover {
+.header-links:hover {
     color: #0059ff;
 
   }
+
   /*ESTILOS CORREO Y TELEFONO*/
-  .header-contacts {
+
+.contacts {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.list-contacts {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 32px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.contact-one {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.list-contacts-two {
+    list-style: none;
+}
 
-  }
-  
-  .header-email,
-  .header-telephone {
-    text-decoration: none;
-    color: #333;
-    padding: 15px;
-    margin-right: 10px;
-  }
-  .header-telephone:hover{
-    color: #0066ff;
-  }
-  .header-email:hover{
-    color: #0066ff;
-  }
+.contact-two {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-navigation {
+    position: relative;
+}
+
+.contacts {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    transform: translateY(50%);
+}
+
+
 
   /*ESTILOS PARA  SOLUICONES EFICACEZ PARA TU NEGOCIO*/
- .title-primary{
+.title-primary{
     background-color: #252525;
  } 
 
- .title{
+.title{
     font-size: 50px;
     text-align: center;
     color: #ffffff;  
@@ -112,9 +145,11 @@ a {
     border-radius: 9px;
     background-color: #0066ff;
     align-items: center;
-    display: flex;  
     font-size: 20px;
     color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 .header-title {
@@ -149,11 +184,7 @@ a {
     color: #2196f3;
 }
 
-.header-email:is(:focus, :hover) {
-    color: #2196F3;
-}
-
-.header-telephone:is(:focus, :hover) {
+.contacts :is(:hover, :focus) {
     color: #2196f3;
 }
 
@@ -336,32 +367,10 @@ a {
     top: 2158px;
     padding: 60px;
 }
-.direction-one .direction-two:is(:hover) {
+
+.contact-two:is(:hover, :focus) {
     color: #2196F3;
 }
-
-.direction-one {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.direction-two {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
 
 .portafolio-title {
     font-family: 'Roboto';
@@ -414,7 +423,7 @@ a {
     justify-content: space-between;
     list-style-type: none;
     width: 1170px;
-    height: 122px;
+    height: 150px;
     padding: 30px;
 }
 
@@ -463,11 +472,13 @@ a {
 .card-container-equipment {
     display: flex;
     flex-wrap: wrap;
-    padding: auto;
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 94px;
+    padding-left: 15px;
     list-style-type: none;
     justify-content: space-around;
 }
-
 .card {
     width: 270px;
     height: 368px;
@@ -489,6 +500,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    white-space: pre-line;
 }
 
 .acceso-botones {
@@ -538,7 +550,7 @@ a {
 .card-container-images {
     display: flex;
     flex-wrap: wrap;
-    padding: auto;
+    padding: 30px;
     list-style-type: none;
     justify-content: space-evenly;
 }
@@ -568,14 +580,11 @@ a {
 
 a {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-
-letter-spacing: 0.06em;
-
-color: #212121;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
 }
