@@ -210,7 +210,6 @@ a {
 }
 
 .title-primary {
-    width: 1400px;
     height: 600px;
     left: -4px;
     text-align: center;
@@ -359,6 +358,11 @@ a {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
+.salto {
+    display: block;
+}
+
 .footer {
     width: 1400px;
     height: 252px;
@@ -588,3 +592,4 @@ a {
     letter-spacing: 0.06em;
     color: #212121;
 }
+ 
