@@ -287,6 +287,16 @@ a {
     letter-spacing: 0.48px;
 }
 /*ESTILO PARA EL FOOTER*/
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-networks {
+    padding-left: 100px;
+}
+
 .footer {
     width: 1200px;
     height: 252px;
@@ -352,10 +362,6 @@ a {
     font-style: normal;
 }
 
-.social-networks {
-    display: flex;
-}
-
 .find {
     font-family: 'Roboto';
     font-style: normal;
@@ -365,6 +371,11 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
 }
 
 /*ESTILO PARA EL PORTAFOLIO*/
