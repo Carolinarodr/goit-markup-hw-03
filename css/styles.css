@@ -376,6 +376,7 @@ a {
 .redes-sociales {
     list-style: none;
     display: flex;
+    padding-top: 20px;
 }
 
 /*ESTILO PARA EL PORTAFOLIO*/
