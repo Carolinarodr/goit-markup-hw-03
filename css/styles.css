@@ -124,10 +124,10 @@ a {
 }
 
 .button-one {
-    padding-right: 450px;
-    padding-left: 469px;
     width: auto;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .button-primary {
