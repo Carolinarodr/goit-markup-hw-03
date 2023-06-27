@@ -21,40 +21,51 @@ body {
     font-family: 'Roboto';
 }
 
+section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
 a {
     text-decoration: none;
 }
 
 .container {
     width: 1200px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*ESTILOS PARA BARRA DE NAVEGACION*/ 
 .container-header {
     display: flex;
-    justify-content: space-between;
+    gap: 93px;
+}
+
+.header-page {
+    width: 1600px;
+    height: 80px;
 }
 
 .header-list {
     display: flex;
     list-style-type: none;
-    
+    align-items: center;
+    gap: 50px;
+
 }
 
 .container-contacts {
     display: flex;
     list-style-type: none;
-   
-}
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
 
+}
 
 /*ESTILOS PARA EL TITULO*/
-.header-page {
-    width: 1200px;
-    height: 80px;
-    display: flex;
-    border-bottom: 1px solid #ECECEC;
-}
 
 .header-title {
     color: #2196F3;
@@ -72,6 +83,7 @@ a {
     font-size: 14px;
     letter-spacing: 0.28px;
     list-style: none;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -84,6 +96,7 @@ a {
     color: #757575;
     font-size: 14px;
     font-style: normal;
+    font-weight: 500;
     letter-spacing: 0.28px;
 }
 
@@ -98,7 +111,7 @@ a {
 /*ESTILOS PARA EL TITULO PRINCIPAL Y EL BOTON*/
 
 .title-primary {
-    width: 1200px;
+    width: 1600px;
     height: 600px;
     background: #2F303A;
     display: flex;
@@ -110,7 +123,6 @@ a {
     color: #FFF;
     text-align: center;
     font-size: 44px;
-    font-weight: 900;
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
@@ -131,7 +143,6 @@ a {
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
     cursor: pointer;
@@ -139,24 +150,17 @@ a {
 
 /*ESTILO PARA LA SECCION DE BENEFICIOS*/
 
-.section-list {
-    padding: 5px;
-}
 .section-one-description {
     list-style: none;
     display: flex;
-    padding-bottom: 30px;
-    padding-right: 45px;
-    padding-left: 45px;
+    width: 1600px;
 }
 
 .section-description {
     color: #212121;
     font-size: 14px;
-    font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    padding-top: 50px;
 }
 
 .description {
@@ -164,7 +168,6 @@ a {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.42px;
-    padding-top: 10px;
     width: 270px;
     height: 75px;
 }
@@ -178,9 +181,7 @@ a {
     color: #212121;
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     letter-spacing: 1.08px;
-    padding-top: 94px;
 }
 
 /*ESTILO PARA LA SECTION TWO*/
@@ -188,7 +189,6 @@ a {
 .section-images {
     display: flex;
     list-style: none;
-    padding: 55.05px;
 }
 
 .section-images li {
@@ -201,7 +201,7 @@ a {
 
 /*ESTILO PARA LA SECCION DEL EQUIPO DE PROFESIONALES*/
 .card-container {
-    width: 1200px;
+    width: 1600px;
     height: 648px;
     left: 0px;
     background: #F5F4FA;
@@ -210,9 +210,6 @@ a {
 .card-container-equipment {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-left: 10px;
     list-style-type: none;
     justify-content: space-around;
 }
@@ -228,7 +225,6 @@ a {
 
 .card-name {
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
@@ -242,7 +238,6 @@ a {
     color: #212121;
     text-align: center;
     font-size: 16px;
-    font-weight: 500;
     letter-spacing: 0.48px;
 }
 .profession {
@@ -263,7 +258,7 @@ a {
 }
 
 .footer {
-    width: 1200px;
+    width: 1600px;
     height: 252px;
 }
 
@@ -271,7 +266,6 @@ a {
     color: #757575;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
     letter-spacing: 0.28px;
 }
 
@@ -285,7 +279,6 @@ a {
 .webstudio {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
@@ -296,7 +289,6 @@ a {
 
 .direction {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
@@ -309,7 +301,7 @@ a {
 }
 
 .footer {
-    width: 1200px;
+    width: 1600px;
     height: 252px;
     background: #2F303A;
     left: 0px;
@@ -327,7 +319,6 @@ a {
 
 .find {
     font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -349,17 +340,17 @@ a {
 
 .acceso-botones {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .botones {
-    display: inline-block;
+    display: inline-flex;
     background: #F5F4FA;
+    gap: 8px;
 }
 
 .button {
     font-style: normal;
-    padding: 10px 20px;
     background-color: #ccc;
     border: none;
     border-radius: 4px;
@@ -374,7 +365,7 @@ a {
 }
  /*ESTILO PARA LAS IMAGENES DEL PORTAFOLIO*/
  .container-card {
-     width: 1200px;
+     width: 1600px;
      height: auto;
      left: 0px;
  }
@@ -399,7 +390,6 @@ a {
 
  .card-portafolio {
      font-style: normal;
-     font-weight: 500;
      font-size: 16px;
      line-height: 19px;
      /* identical to box height */
