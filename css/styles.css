@@ -17,14 +17,16 @@
     --text-white-opacity: #ffffff99;
 }
 
+body {
+    font-family: 'Roboto';
+}
+
 a {
     text-decoration: none;
 }
 
 .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*ESTILOS PARA BARRA DE NAVEGACION*/ 
@@ -36,25 +38,15 @@ a {
 .header-list {
     display: flex;
     list-style-type: none;
-    padding: 40px;
-    padding-top: 25px;
-    margin: 0;
-}
-
-.list-item {
-    margin-right: 30px;
+    
 }
 
 .container-contacts {
     display: flex;
     list-style-type: none;
-    padding: 25px 40px 40px 120px;
-    margin: 0;
+   
 }
 
-.list-contacts {
-    margin-right: 30px;
-}
 
 /*ESTILOS PARA EL TITULO*/
 .header-page {
@@ -72,10 +64,6 @@ a {
     font-weight: 700;
     letter-spacing: 0.78px;
     cursor: pointer;
-    padding: 35px;
-    padding-top: 25px;
-    margin-right: 3px;
-    margin-left: 60px;
 }
 
 /*ESTILOS PARA LA LISTA ESTUDIO PORTAFOLIO Y CONTACTOS*/
@@ -83,7 +71,6 @@ a {
 .header-links {
     color: #212121;
     font-size: 14px;
-    font-family: Roboto;
     font-weight: 500;
     letter-spacing: 0.28px;
     list-style: none;
@@ -98,7 +85,6 @@ a {
 .contact-one {
     color: #757575;
     font-size: 14px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.28px;
@@ -128,7 +114,6 @@ a {
     color: #FFF;
     text-align: center;
     font-size: 44px;
-    font-family: Roboto;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 2.64px;
@@ -154,7 +139,6 @@ a {
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    font-family: Roboto;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
@@ -177,7 +161,6 @@ a {
 .section-description {
     color: #212121;
     font-size: 14px;
-    font-family: Roboto;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
@@ -187,7 +170,6 @@ a {
 .description {
     color: #757575;
     font-size: 14px;
-    font-family: Roboto;
     line-height: 24px;
     letter-spacing: 0.42px;
     padding-top: 10px;
@@ -204,7 +186,6 @@ a {
     color: #212121;
     text-align: center;
     font-size: 36px;
-    font-family: Roboto;
     font-weight: 700;
     letter-spacing: 1.08px;
     padding-top: 94px;
@@ -259,7 +240,6 @@ a {
 }
 
 .card-name {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -275,7 +255,6 @@ a {
     color: #212121;
     text-align: center;
     font-size: 16px;
-    font-family: Roboto;
     font-weight: 500;
     letter-spacing: 0.48px;
 }
@@ -283,7 +262,6 @@ a {
     color: #757575;
     text-align: center;
     font-size: 16px;
-    font-family: Roboto;
     letter-spacing: 0.48px;
 }
 /*ESTILO PARA EL FOOTER*/
@@ -305,7 +283,6 @@ a {
 .contact-one-footer {
     color: #757575;
     font-size: 14px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.28px;
@@ -331,7 +308,6 @@ a {
 }
 
 .direction {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -363,7 +339,6 @@ a {
 }
 
 .find {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -383,10 +358,6 @@ a {
 /*ESTILO PARA LOS BOTONES DEL PORTAFOLIO*/
 .acceso-botones {
     align-items: center;
-    margin-left: 310px;
-    margin-right: 110px;
-    padding-top: 100px;
-    padding-bottom: 56px;
 }
 
 .acceso-botones {
@@ -400,7 +371,6 @@ a {
 }
 
 .button {
-    font-family: 'Roboto';
     font-style: normal;
     padding: 10px 20px;
     background-color: #ccc;
@@ -420,13 +390,11 @@ a {
      width: 1200px;
      height: auto;
      left: 0px;
-     margin: auto;
  }
 
  .card-container-images {
      display: flex;
      flex-wrap: wrap;
-     padding: 30px;
      list-style-type: none;
      justify-content: space-between;
  }
@@ -440,11 +408,9 @@ a {
      /* material shadow v1 */
      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
      border-radius: 0px 0px 4px 4px;
-     margin-bottom: 20px;
  }
 
  .card-portafolio {
-     font-family: 'Roboto';
      font-style: normal;
      font-weight: 500;
      font-size: 16px;
@@ -460,7 +426,6 @@ a {
  .portafolio-text {
     color: #757575;
     font-size: 16px;
-    font-family: Roboto;
     line-height: 30px;
     letter-spacing: 0.48px;
 }
