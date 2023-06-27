@@ -207,11 +207,6 @@ a {
     background: #F5F4FA;
 }
 
-.container-card-equipo {
-    padding-left: 10px;
-    padding-right: 15px;
-}
-
 .card-container-equipment {
     display: flex;
     flex-wrap: wrap;
