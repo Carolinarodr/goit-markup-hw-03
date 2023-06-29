@@ -17,10 +17,6 @@
     --text-white-opacity: #ffffff99;
 }
 
-body {
-    font-family: 'Roboto';
-}
-
 section {
     padding: 96px;
 }
@@ -401,4 +397,3 @@ a {
     line-height: 30px;
     letter-spacing: 0.48px;
 }
-
