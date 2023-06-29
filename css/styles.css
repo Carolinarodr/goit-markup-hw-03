@@ -60,6 +60,10 @@ a {
 
 }
 
+.header-page {
+    border: 1px solid #ECECEC;
+}
+
 /*ESTILOS PARA EL TITULO*/
 
 .header-title {
@@ -362,18 +366,22 @@ a {
      /* material shadow v1 */
      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
      border-radius: 0px 0px 4px 4px;
+     flex-basis: calc((100% - 60px) / 3);
+ }
+
+ img {
+    display: block;
  }
 
  .card-portafolio {
-     font-style: normal;
-     font-size: 16px;
-     line-height: 19px;
-     /* identical to box height */
-     text-align: left;
-     margin-left: 24px;
-     margin-top: 20px;
-     letter-spacing: 0.03em;
-     color: #212121;
+    display: block;
+    color: #212121;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    padding: 24px;
  }
 
  .portafolio-text {
