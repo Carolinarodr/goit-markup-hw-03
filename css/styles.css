@@ -22,8 +22,7 @@ body {
 }
 
 section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96px;
 }
 
 a {
@@ -351,6 +350,13 @@ a {
 
  /*ESTILO PARA LAS IMAGENES DEL PORTAFOLIO*/
 
+ .container-botones {
+    padding-bottom: 28px;
+ }
+ .container-card {
+    padding-top: 28px;
+ }
+
  .card-container-images {
      display: flex;
      flex-wrap: wrap;
@@ -370,6 +376,8 @@ a {
 
  img {
     display: block;
+    max-width: 100%;
+    height: auto;
  }
 
  .card-portafolio {
