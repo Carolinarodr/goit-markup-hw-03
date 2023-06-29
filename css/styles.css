@@ -36,7 +36,7 @@ a {
     margin-right: auto;
 }
 
-/*ESTILOS PARA BARRA DE NAVEGACION*/
+/*ESTILOS PARA BARRA DE NAVEGACION*/ 
 .container-header {
     display: flex;
     gap: 93px;
@@ -231,14 +231,12 @@ a {
     font-size: 16px;
     letter-spacing: 0.48px;
 }
-
 .profession {
     color: #757575;
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.48px;
 }
-
 /*ESTILO PARA EL FOOTER*/
 
 .container-footer {
@@ -264,7 +262,6 @@ a {
 .contact-one-footer:hover {
     color: #2196F3;
 }
-
 .webstudio {
     font-family: 'Raleway';
     font-style: normal;
@@ -351,34 +348,39 @@ a {
     color: #FFFFFF;
 }
 
-/*ESTILO PARA LAS IMAGENES DEL PORTAFOLIO*/
+ /*ESTILO PARA LAS IMAGENES DEL PORTAFOLIO*/
 
-.container-botones {
+ .container-botones {
     padding-bottom: 28px;
-}
-
-.container-card {
+ }
+ .container-card {
     padding-top: 28px;
-}
+ }
 
-.card-container-images {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    justify-content: space-between;
-    gap: 30px
-}
+ .card-container-images {
+     display: flex;
+     flex-wrap: wrap;
+     list-style-type: none;
+     justify-content: space-between;
+     gap: 30px
+ }
 
-.card-images {
-    left: 208px;
-    top: 1696px;
-    background: #FFFFFF;
-    /* material shadow v1 */
-    border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 60px) / 3);
-}
+ .card-images {
+     left: 208px;
+     top: 1696px;
+     background: #FFFFFF;
+     /* material shadow v1 */
+     border-radius: 0px 0px 4px 4px;
+     flex-basis: calc((100% - 60px) / 3);
+ }
 
-.card-portafolio {
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+
+ .card-portafolio {
     display: block;
     color: #212121;
     font-style: normal;
@@ -387,11 +389,11 @@ a {
     text-align: left;
     letter-spacing: 0.03em;
     padding: 24px;
-}
+ }
 
-.card-portafolio {
+ .card-portafolio {
     border: 1px solid #EEE;
-}
+ }
 
  .portafolio-text {
     color: #757575;
