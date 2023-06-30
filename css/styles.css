@@ -195,7 +195,6 @@ a {
 
 /*ESTILO PARA LA SECCION DEL EQUIPO DE PROFESIONALES*/
 .card-container {
-    left: 0px;
     background: #F5F4FA;
 }
 
@@ -288,8 +287,6 @@ a {
 
 .footer {
     background: #2F303A;
-    left: 0px;
-    top: 2158px;
     padding: 60px;
 }
 
@@ -366,8 +363,6 @@ a {
  }
 
  .card-images {
-     left: 208px;
-     top: 1696px;
      background: #FFFFFF;
      /* material shadow v1 */
      border-radius: 0px 0px 4px 4px;
